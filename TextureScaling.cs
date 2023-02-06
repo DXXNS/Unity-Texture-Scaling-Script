@@ -92,6 +92,6 @@ private bool CheckForDefaultSize()
     base.GetComponent<MeshFilter>().sharedMesh = gameObject.GetComponent<MeshFilter>().sharedMesh;
     UnityEngine.Object.DestroyImmediate(gameObject);
     return true;
-    gameObject
+    gameObject;
 }
 }
