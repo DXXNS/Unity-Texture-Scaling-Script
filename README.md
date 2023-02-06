@@ -1,2 +1,4 @@
 # Unity Texture Scaling Script
- This is a small Unity script for Texture Scaling
+
+I made this Unity script to scale your Textures.
+If you need any help just add me on discord: DXXNS#8544
