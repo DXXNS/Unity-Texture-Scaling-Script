@@ -37,7 +37,7 @@ public class TextureScaling : MonoBehaviour
     { 
         base.GetComponent<Renderer>().sharedMaterial.mainTexture.wrapMode = TextureWrapMode.Repeat;
     }
-    mesh
+    
     }
 
 private Mesh GetMesh()
@@ -75,9 +75,7 @@ private Vector2[] SetupUvMap(Vector2[] meshUVs)
     meshUVs[12] = new Vector2(x, num);
     meshUVs[15] = new Vector2(0f, num);
     return meshUVs;
-    x
-    num
-    y
+    
 }
 
 private bool CheckForDefaultSize()
@@ -92,6 +90,6 @@ private bool CheckForDefaultSize()
     base.GetComponent<MeshFilter>().sharedMesh = gameObject.GetComponent<MeshFilter>().sharedMesh;
     UnityEngine.Object.DestroyImmediate(gameObject);
     return true;
-    gameObject;
+    
 }
 }
